@@ -1,0 +1,46 @@
+/* this are the tag selectors */
+
+body {
+  background-color: #a1e6e3;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width:3%;
+}
+
+
+h3{
+  color: red;
+}
+
+h1{
+  color: red;
+}
+
+img:hover{
+  background-color: gold;
+}
+
+/* this are the class selectors where class should always start from . */
+
+.cuc1{
+  background-color: red;
+}
+
+.cuc2{
+  background-color: green;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+
+/* this are the id selectors........id will overwrite the tag that is why colour blue is showing insted of red*/
+#heading{
+  color: blue;
+}
